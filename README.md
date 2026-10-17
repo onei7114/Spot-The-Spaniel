@@ -44,7 +44,7 @@ The repository includes a GitHub Pages workflow for the browser-only app. After 
 
 The public link will be:
 
-`https://onei7114.github.io/Dog-Match-Final-Project/`
+`https://onei7114.github.io/Spot-The-Spaniel/`
 
 The workflow publishes only the static app and representative gallery. The local training dataset is excluded from Git with `.gitignore`.
 
