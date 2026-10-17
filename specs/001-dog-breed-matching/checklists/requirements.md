@@ -1,14 +1,14 @@
-# Specification Quality Checklist: Dog Breed Matching
+# Specification Quality Checklist: Spot The Spaniel
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
-**Created**: 2026-10-03
+**Created**: 2026-10-17
 **Feature**: [spec.md](../spec.md)
 
 ## Content Quality
 
-- [x] No implementation details (languages, frameworks, APIs)
+- [x] No implementation details beyond externally observable model behavior
 - [x] Focused on user value and business needs
-- [ ] Written for non-technical stakeholders
+- [x] Written for non-technical stakeholders
 - [x] All mandatory sections completed
 
 ## Requirement Completeness
@@ -31,4 +31,5 @@
 
 ## Notes
 
-- Items marked incomplete require spec updates before `/speckit-clarify` or `/speckit-plan`.
+- The active specification supersedes the earlier database-based breed-matching description.
+- The legacy dataset and CLIP matcher remain explicitly out of scope for the active browser flow.
