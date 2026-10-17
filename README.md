@@ -48,6 +48,16 @@ The public link will be:
 
 The workflow publishes only the static app and representative gallery. The local training dataset is excluded from Git with `.gitignore`.
 
+## Deploy on Render
+
+The repository also includes `render.yaml` for a public Render web service. In Render, choose **New > Blueprint**, connect this GitHub repository, and select the `main` branch. Render will detect the blueprint and use the included build and start commands.
+
+Render provides a public URL such as:
+
+`https://spot-the-spaniel.onrender.com`
+
+The free service may sleep after inactivity, so the first request after a period of inactivity can take longer. Predictions still run in each visitor's browser; the service only delivers the app files.
+
 ## Privacy and Upload Safety
 
 Uploaded photos are validated as readable JPEG content and processed locally in the browser. The application does not create user accounts, store personal details, save uploaded photos, retain match history, or log raw filenames/image contents. The uploaded photo is not sent to this app's server.

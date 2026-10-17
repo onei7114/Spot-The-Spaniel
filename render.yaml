@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: spot-the-spaniel
+    runtime: python
+    buildCommand: pip install .
+    startCommand: uvicorn dog_match.app:create_app --factory --host 0.0.0.0 --port $PORT
+    healthCheckPath: /
+    autoDeploy: true
