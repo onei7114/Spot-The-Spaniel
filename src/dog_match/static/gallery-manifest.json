@@ -1,0 +1,1422 @@
+[
+    {
+        "breedName":  "affenpinscher dog",
+        "imageUrl":  "/static/gallery/breed-000.jpg"
+    },
+    {
+        "breedName":  "afghan hound dog",
+        "imageUrl":  "/static/gallery/breed-001.jpg"
+    },
+    {
+        "breedName":  "airedale terrier dog",
+        "imageUrl":  "/static/gallery/breed-002.jpg"
+    },
+    {
+        "breedName":  "akita dog",
+        "imageUrl":  "/static/gallery/breed-003.jpg"
+    },
+    {
+        "breedName":  "alaskan malamute dog",
+        "imageUrl":  "/static/gallery/breed-004.jpg"
+    },
+    {
+        "breedName":  "alpine dachsbracke dog",
+        "imageUrl":  "/static/gallery/breed-005.jpg"
+    },
+    {
+        "breedName":  "american akita dog",
+        "imageUrl":  "/static/gallery/breed-006.jpg"
+    },
+    {
+        "breedName":  "american cocker spaniel dog",
+        "imageUrl":  "/static/gallery/breed-007.jpg"
+    },
+    {
+        "breedName":  "american foxhound dog",
+        "imageUrl":  "/static/gallery/breed-008.jpg"
+    },
+    {
+        "breedName":  "american staffordshire terrier dog",
+        "imageUrl":  "/static/gallery/breed-009.jpg"
+    },
+    {
+        "breedName":  "american water spaniel dog",
+        "imageUrl":  "/static/gallery/breed-010.jpg"
+    },
+    {
+        "breedName":  "appenzell cattle dog",
+        "imageUrl":  "/static/gallery/breed-011.jpg"
+    },
+    {
+        "breedName":  "ariege pointing dog",
+        "imageUrl":  "/static/gallery/breed-012.jpg"
+    },
+    {
+        "breedName":  "ariegeois dog",
+        "imageUrl":  "/static/gallery/breed-013.jpg"
+    },
+    {
+        "breedName":  "artois hound dog",
+        "imageUrl":  "/static/gallery/breed-014.jpg"
+    },
+    {
+        "breedName":  "atlas mountain dog (aidi)",
+        "imageUrl":  "/static/gallery/breed-015.jpg"
+    },
+    {
+        "breedName":  "australian cattle dog",
+        "imageUrl":  "/static/gallery/breed-016.jpg"
+    },
+    {
+        "breedName":  "australian kelpie dog",
+        "imageUrl":  "/static/gallery/breed-017.jpg"
+    },
+    {
+        "breedName":  "australian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-018.jpg"
+    },
+    {
+        "breedName":  "australian silky terrier dog",
+        "imageUrl":  "/static/gallery/breed-019.jpg"
+    },
+    {
+        "breedName":  "australian stumpy tail cattle dog",
+        "imageUrl":  "/static/gallery/breed-020.jpg"
+    },
+    {
+        "breedName":  "australian terrier dog",
+        "imageUrl":  "/static/gallery/breed-021.jpg"
+    },
+    {
+        "breedName":  "austrian  pinscher dog",
+        "imageUrl":  "/static/gallery/breed-022.jpg"
+    },
+    {
+        "breedName":  "austrian black and tan hound dog",
+        "imageUrl":  "/static/gallery/breed-023.jpg"
+    },
+    {
+        "breedName":  "auvergne pointer dog",
+        "imageUrl":  "/static/gallery/breed-024.jpg"
+    },
+    {
+        "breedName":  "azawakh dog",
+        "imageUrl":  "/static/gallery/breed-025.jpg"
+    },
+    {
+        "breedName":  "basenji dog",
+        "imageUrl":  "/static/gallery/breed-026.jpg"
+    },
+    {
+        "breedName":  "basset fauve de bretagne dog",
+        "imageUrl":  "/static/gallery/breed-027.jpg"
+    },
+    {
+        "breedName":  "basset hound dog",
+        "imageUrl":  "/static/gallery/breed-028.jpg"
+    },
+    {
+        "breedName":  "bavarian mountain scent hound dog",
+        "imageUrl":  "/static/gallery/breed-029.jpg"
+    },
+    {
+        "breedName":  "beagle dog",
+        "imageUrl":  "/static/gallery/breed-030.jpg"
+    },
+    {
+        "breedName":  "beagle harrier dog",
+        "imageUrl":  "/static/gallery/breed-031.jpg"
+    },
+    {
+        "breedName":  "bearded collie dog",
+        "imageUrl":  "/static/gallery/breed-032.jpg"
+    },
+    {
+        "breedName":  "bedlington terrier dog",
+        "imageUrl":  "/static/gallery/breed-033.jpg"
+    },
+    {
+        "breedName":  "belgian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-034.jpg"
+    },
+    {
+        "breedName":  "bergamasco shepherd dog",
+        "imageUrl":  "/static/gallery/breed-035.jpg"
+    },
+    {
+        "breedName":  "berger de beauce dog",
+        "imageUrl":  "/static/gallery/breed-036.jpg"
+    },
+    {
+        "breedName":  "bernese mountain dog",
+        "imageUrl":  "/static/gallery/breed-037.jpg"
+    },
+    {
+        "breedName":  "bichon frise dog",
+        "imageUrl":  "/static/gallery/breed-038.jpg"
+    },
+    {
+        "breedName":  "billy dog",
+        "imageUrl":  "/static/gallery/breed-039.jpg"
+    },
+    {
+        "breedName":  "black and tan coonhound dog",
+        "imageUrl":  "/static/gallery/breed-040.jpg"
+    },
+    {
+        "breedName":  "bloodhound dog",
+        "imageUrl":  "/static/gallery/breed-041.jpg"
+    },
+    {
+        "breedName":  "blue gascony basset dog",
+        "imageUrl":  "/static/gallery/breed-042.jpg"
+    },
+    {
+        "breedName":  "blue gascony griffon dog",
+        "imageUrl":  "/static/gallery/breed-043.jpg"
+    },
+    {
+        "breedName":  "blue picardy spaniel dog",
+        "imageUrl":  "/static/gallery/breed-044.jpg"
+    },
+    {
+        "breedName":  "bohemian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-045.jpg"
+    },
+    {
+        "breedName":  "bohemian wire-haired pointing griffon dog",
+        "imageUrl":  "/static/gallery/breed-046.jpg"
+    },
+    {
+        "breedName":  "bolognese dog",
+        "imageUrl":  "/static/gallery/breed-047.jpg"
+    },
+    {
+        "breedName":  "border collie dog",
+        "imageUrl":  "/static/gallery/breed-048.jpg"
+    },
+    {
+        "breedName":  "border terrier dog",
+        "imageUrl":  "/static/gallery/breed-049.jpg"
+    },
+    {
+        "breedName":  "borzoi - russian hunting sighthound dog",
+        "imageUrl":  "/static/gallery/breed-050.jpg"
+    },
+    {
+        "breedName":  "bosnian and herzegovinian - croatian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-051.jpg"
+    },
+    {
+        "breedName":  "bosnian broken-haired hound - called barak dog",
+        "imageUrl":  "/static/gallery/breed-052.jpg"
+    },
+    {
+        "breedName":  "boston terrier dog",
+        "imageUrl":  "/static/gallery/breed-053.jpg"
+    },
+    {
+        "breedName":  "bourbonnais pointing dog",
+        "imageUrl":  "/static/gallery/breed-054.jpg"
+    },
+    {
+        "breedName":  "bouvier des ardennes dog",
+        "imageUrl":  "/static/gallery/breed-055.jpg"
+    },
+    {
+        "breedName":  "bouvier des flandres dog",
+        "imageUrl":  "/static/gallery/breed-056.jpg"
+    },
+    {
+        "breedName":  "boxer dog",
+        "imageUrl":  "/static/gallery/breed-057.jpg"
+    },
+    {
+        "breedName":  "brazilian terrier dog",
+        "imageUrl":  "/static/gallery/breed-058.jpg"
+    },
+    {
+        "breedName":  "brazilian tracker dog",
+        "imageUrl":  "/static/gallery/breed-059.jpg"
+    },
+    {
+        "breedName":  "briard dog",
+        "imageUrl":  "/static/gallery/breed-060.jpg"
+    },
+    {
+        "breedName":  "briquet griffon vendeen dog",
+        "imageUrl":  "/static/gallery/breed-061.jpg"
+    },
+    {
+        "breedName":  "brittany spaniel dog",
+        "imageUrl":  "/static/gallery/breed-062.jpg"
+    },
+    {
+        "breedName":  "broholmer dog",
+        "imageUrl":  "/static/gallery/breed-063.jpg"
+    },
+    {
+        "breedName":  "bull terrier dog",
+        "imageUrl":  "/static/gallery/breed-064.jpg"
+    },
+    {
+        "breedName":  "bulldog",
+        "imageUrl":  "/static/gallery/breed-065.jpg"
+    },
+    {
+        "breedName":  "bullmastiff dog",
+        "imageUrl":  "/static/gallery/breed-066.jpg"
+    },
+    {
+        "breedName":  "burgos pointing dog",
+        "imageUrl":  "/static/gallery/breed-067.jpg"
+    },
+    {
+        "breedName":  "cairn terrier dog",
+        "imageUrl":  "/static/gallery/breed-068.jpg"
+    },
+    {
+        "breedName":  "canaan dog",
+        "imageUrl":  "/static/gallery/breed-069.jpg"
+    },
+    {
+        "breedName":  "canadian eskimo dog",
+        "imageUrl":  "/static/gallery/breed-070.jpg"
+    },
+    {
+        "breedName":  "canarian warren hound dog",
+        "imageUrl":  "/static/gallery/breed-071.jpg"
+    },
+    {
+        "breedName":  "castro laboreiro dog",
+        "imageUrl":  "/static/gallery/breed-072.jpg"
+    },
+    {
+        "breedName":  "catalan sheepdog",
+        "imageUrl":  "/static/gallery/breed-073.jpg"
+    },
+    {
+        "breedName":  "caucasian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-074.jpg"
+    },
+    {
+        "breedName":  "cavalier king charles spaniel dog",
+        "imageUrl":  "/static/gallery/breed-075.jpg"
+    },
+    {
+        "breedName":  "central asia shepherd dog",
+        "imageUrl":  "/static/gallery/breed-076.jpg"
+    },
+    {
+        "breedName":  "cesky terrier dog",
+        "imageUrl":  "/static/gallery/breed-077.jpg"
+    },
+    {
+        "breedName":  "chesapeake bay retriever dog",
+        "imageUrl":  "/static/gallery/breed-078.jpg"
+    },
+    {
+        "breedName":  "chihuahua dog",
+        "imageUrl":  "/static/gallery/breed-079.jpg"
+    },
+    {
+        "breedName":  "chinese crested dog",
+        "imageUrl":  "/static/gallery/breed-080.jpg"
+    },
+    {
+        "breedName":  "chow chow dog",
+        "imageUrl":  "/static/gallery/breed-081.jpg"
+    },
+    {
+        "breedName":  "cimarrón uruguayo dog",
+        "imageUrl":  "/static/gallery/breed-082.jpg"
+    },
+    {
+        "breedName":  "cirneco dell\u0027etna dog",
+        "imageUrl":  "/static/gallery/breed-083.jpg"
+    },
+    {
+        "breedName":  "clumber spaniel dog",
+        "imageUrl":  "/static/gallery/breed-084.jpg"
+    },
+    {
+        "breedName":  "coarse-haired styrian hound dog",
+        "imageUrl":  "/static/gallery/breed-085.jpg"
+    },
+    {
+        "breedName":  "collie rough dog",
+        "imageUrl":  "/static/gallery/breed-086.jpg"
+    },
+    {
+        "breedName":  "collie smooth dog",
+        "imageUrl":  "/static/gallery/breed-087.jpg"
+    },
+    {
+        "breedName":  "continental bulldog",
+        "imageUrl":  "/static/gallery/breed-088.jpg"
+    },
+    {
+        "breedName":  "continental toy spaniel dog",
+        "imageUrl":  "/static/gallery/breed-089.jpg"
+    },
+    {
+        "breedName":  "coton de tulear dog",
+        "imageUrl":  "/static/gallery/breed-090.jpg"
+    },
+    {
+        "breedName":  "croatian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-091.jpg"
+    },
+    {
+        "breedName":  "curly coated retriever dog",
+        "imageUrl":  "/static/gallery/breed-092.jpg"
+    },
+    {
+        "breedName":  "czechoslovakian wolfdog",
+        "imageUrl":  "/static/gallery/breed-093.jpg"
+    },
+    {
+        "breedName":  "dachshund dog",
+        "imageUrl":  "/static/gallery/breed-094.jpg"
+    },
+    {
+        "breedName":  "dalmatian dog",
+        "imageUrl":  "/static/gallery/breed-095.jpg"
+    },
+    {
+        "breedName":  "dandie dinmont terrier dog",
+        "imageUrl":  "/static/gallery/breed-096.jpg"
+    },
+    {
+        "breedName":  "danish-swedish farmdog",
+        "imageUrl":  "/static/gallery/breed-097.jpg"
+    },
+    {
+        "breedName":  "deerhound dog",
+        "imageUrl":  "/static/gallery/breed-098.jpg"
+    },
+    {
+        "breedName":  "deutsch langhaar dog",
+        "imageUrl":  "/static/gallery/breed-099.jpg"
+    },
+    {
+        "breedName":  "deutsch stichelhaar dog",
+        "imageUrl":  "/static/gallery/breed-100.jpg"
+    },
+    {
+        "breedName":  "dobermann dog",
+        "imageUrl":  "/static/gallery/breed-101.jpg"
+    },
+    {
+        "breedName":  "dogo argentino",
+        "imageUrl":  "/static/gallery/breed-102.jpg"
+    },
+    {
+        "breedName":  "dogue de bordeaux",
+        "imageUrl":  "/static/gallery/breed-103.jpg"
+    },
+    {
+        "breedName":  "drentsche partridge dog",
+        "imageUrl":  "/static/gallery/breed-104.jpg"
+    },
+    {
+        "breedName":  "drever dog",
+        "imageUrl":  "/static/gallery/breed-105.jpg"
+    },
+    {
+        "breedName":  "dutch schapendoes dog",
+        "imageUrl":  "/static/gallery/breed-106.jpg"
+    },
+    {
+        "breedName":  "dutch shepherd dog",
+        "imageUrl":  "/static/gallery/breed-107.jpg"
+    },
+    {
+        "breedName":  "dutch smoushond dog",
+        "imageUrl":  "/static/gallery/breed-108.jpg"
+    },
+    {
+        "breedName":  "east siberian laika dog",
+        "imageUrl":  "/static/gallery/breed-109.jpg"
+    },
+    {
+        "breedName":  "english cocker spaniel dog",
+        "imageUrl":  "/static/gallery/breed-110.jpg"
+    },
+    {
+        "breedName":  "english foxhound dog",
+        "imageUrl":  "/static/gallery/breed-111.jpg"
+    },
+    {
+        "breedName":  "english pointer dog",
+        "imageUrl":  "/static/gallery/breed-112.jpg"
+    },
+    {
+        "breedName":  "english setter dog",
+        "imageUrl":  "/static/gallery/breed-113.jpg"
+    },
+    {
+        "breedName":  "english springer spaniel dog",
+        "imageUrl":  "/static/gallery/breed-114.jpg"
+    },
+    {
+        "breedName":  "english toy terrier (black \u0026tan) dog",
+        "imageUrl":  "/static/gallery/breed-115.jpg"
+    },
+    {
+        "breedName":  "entlebuch cattle dog",
+        "imageUrl":  "/static/gallery/breed-116.jpg"
+    },
+    {
+        "breedName":  "estonian hound dog",
+        "imageUrl":  "/static/gallery/breed-117.jpg"
+    },
+    {
+        "breedName":  "estrela mountain dog",
+        "imageUrl":  "/static/gallery/breed-118.jpg"
+    },
+    {
+        "breedName":  "eurasian dog",
+        "imageUrl":  "/static/gallery/breed-119.jpg"
+    },
+    {
+        "breedName":  "fawn brittany griffon dog",
+        "imageUrl":  "/static/gallery/breed-120.jpg"
+    },
+    {
+        "breedName":  "field spaniel dog",
+        "imageUrl":  "/static/gallery/breed-121.jpg"
+    },
+    {
+        "breedName":  "fila brasileiro dog",
+        "imageUrl":  "/static/gallery/breed-122.jpg"
+    },
+    {
+        "breedName":  "finnish hound dog",
+        "imageUrl":  "/static/gallery/breed-123.jpg"
+    },
+    {
+        "breedName":  "finnish lapponian dog",
+        "imageUrl":  "/static/gallery/breed-124.jpg"
+    },
+    {
+        "breedName":  "finnish spitz dog",
+        "imageUrl":  "/static/gallery/breed-125.jpg"
+    },
+    {
+        "breedName":  "flat coated retriever dog",
+        "imageUrl":  "/static/gallery/breed-126.jpg"
+    },
+    {
+        "breedName":  "fox terrier (smooth) dog",
+        "imageUrl":  "/static/gallery/breed-127.jpg"
+    },
+    {
+        "breedName":  "fox terrier (wire) dog",
+        "imageUrl":  "/static/gallery/breed-128.jpg"
+    },
+    {
+        "breedName":  "french bulldog",
+        "imageUrl":  "/static/gallery/breed-129.jpg"
+    },
+    {
+        "breedName":  "french pointing dog - pyrenean type",
+        "imageUrl":  "/static/gallery/breed-130.jpg"
+    },
+    {
+        "breedName":  "french spaniel dog",
+        "imageUrl":  "/static/gallery/breed-131.jpg"
+    },
+    {
+        "breedName":  "french tricolour hound dog",
+        "imageUrl":  "/static/gallery/breed-132.jpg"
+    },
+    {
+        "breedName":  "french water dog",
+        "imageUrl":  "/static/gallery/breed-133.jpg"
+    },
+    {
+        "breedName":  "french white \u0026 black hound dog",
+        "imageUrl":  "/static/gallery/breed-134.jpg"
+    },
+    {
+        "breedName":  "french white and orange hound dog",
+        "imageUrl":  "/static/gallery/breed-135.jpg"
+    },
+    {
+        "breedName":  "frisian water dog",
+        "imageUrl":  "/static/gallery/breed-136.jpg"
+    },
+    {
+        "breedName":  "gascon saintongeois dog",
+        "imageUrl":  "/static/gallery/breed-137.jpg"
+    },
+    {
+        "breedName":  "german hound dog",
+        "imageUrl":  "/static/gallery/breed-138.jpg"
+    },
+    {
+        "breedName":  "german hunting terrier dog",
+        "imageUrl":  "/static/gallery/breed-139.jpg"
+    },
+    {
+        "breedName":  "german pinscher dog",
+        "imageUrl":  "/static/gallery/breed-140.jpg"
+    },
+    {
+        "breedName":  "german shepherd dog",
+        "imageUrl":  "/static/gallery/breed-141.jpg"
+    },
+    {
+        "breedName":  "german short- haired pointing dog",
+        "imageUrl":  "/static/gallery/breed-142.jpg"
+    },
+    {
+        "breedName":  "german spaniel dog",
+        "imageUrl":  "/static/gallery/breed-143.jpg"
+    },
+    {
+        "breedName":  "german spitz dog",
+        "imageUrl":  "/static/gallery/breed-144.jpg"
+    },
+    {
+        "breedName":  "german wire- haired pointing dog",
+        "imageUrl":  "/static/gallery/breed-145.jpg"
+    },
+    {
+        "breedName":  "giant schnauzer dog",
+        "imageUrl":  "/static/gallery/breed-146.jpg"
+    },
+    {
+        "breedName":  "golden retriever dog",
+        "imageUrl":  "/static/gallery/breed-147.jpg"
+    },
+    {
+        "breedName":  "gordon setter dog",
+        "imageUrl":  "/static/gallery/breed-148.jpg"
+    },
+    {
+        "breedName":  "grand basset griffon vendeen dog",
+        "imageUrl":  "/static/gallery/breed-149.jpg"
+    },
+    {
+        "breedName":  "grand griffon vendeen dog",
+        "imageUrl":  "/static/gallery/breed-150.jpg"
+    },
+    {
+        "breedName":  "great anglo-french tricolour hound dog",
+        "imageUrl":  "/static/gallery/breed-151.jpg"
+    },
+    {
+        "breedName":  "great anglo-french white \u0026 orange hound dog",
+        "imageUrl":  "/static/gallery/breed-152.jpg"
+    },
+    {
+        "breedName":  "great anglo-french white and black hound dog",
+        "imageUrl":  "/static/gallery/breed-153.jpg"
+    },
+    {
+        "breedName":  "great dane dog",
+        "imageUrl":  "/static/gallery/breed-154.jpg"
+    },
+    {
+        "breedName":  "great gascony blue dog",
+        "imageUrl":  "/static/gallery/breed-155.jpg"
+    },
+    {
+        "breedName":  "great swiss mountain dog",
+        "imageUrl":  "/static/gallery/breed-156.jpg"
+    },
+    {
+        "breedName":  "greenland dog",
+        "imageUrl":  "/static/gallery/breed-157.jpg"
+    },
+    {
+        "breedName":  "greyhound dog",
+        "imageUrl":  "/static/gallery/breed-158.jpg"
+    },
+    {
+        "breedName":  "griffon belge dog",
+        "imageUrl":  "/static/gallery/breed-159.jpg"
+    },
+    {
+        "breedName":  "griffon bruxellois dog",
+        "imageUrl":  "/static/gallery/breed-160.jpg"
+    },
+    {
+        "breedName":  "griffon nivernais dog",
+        "imageUrl":  "/static/gallery/breed-161.jpg"
+    },
+    {
+        "breedName":  "halden hound dog",
+        "imageUrl":  "/static/gallery/breed-162.jpg"
+    },
+    {
+        "breedName":  "hamiltonstövare dog",
+        "imageUrl":  "/static/gallery/breed-163.jpg"
+    },
+    {
+        "breedName":  "hanoverian scent hound dog",
+        "imageUrl":  "/static/gallery/breed-164.jpg"
+    },
+    {
+        "breedName":  "harrier dog",
+        "imageUrl":  "/static/gallery/breed-165.jpg"
+    },
+    {
+        "breedName":  "havanese dog",
+        "imageUrl":  "/static/gallery/breed-166.jpg"
+    },
+    {
+        "breedName":  "hellenic hound dog",
+        "imageUrl":  "/static/gallery/breed-167.jpg"
+    },
+    {
+        "breedName":  "hokkaido dog",
+        "imageUrl":  "/static/gallery/breed-168.jpg"
+    },
+    {
+        "breedName":  "hovawart dog",
+        "imageUrl":  "/static/gallery/breed-169.jpg"
+    },
+    {
+        "breedName":  "hungarian greyhound dog",
+        "imageUrl":  "/static/gallery/breed-170.jpg"
+    },
+    {
+        "breedName":  "hungarian hound - transylvanian scent hound dog",
+        "imageUrl":  "/static/gallery/breed-171.jpg"
+    },
+    {
+        "breedName":  "hungarian short-haired pointer (vizsla) dog",
+        "imageUrl":  "/static/gallery/breed-172.jpg"
+    },
+    {
+        "breedName":  "hungarian wire-haired pointer dog",
+        "imageUrl":  "/static/gallery/breed-173.jpg"
+    },
+    {
+        "breedName":  "hygen hound dog",
+        "imageUrl":  "/static/gallery/breed-174.jpg"
+    },
+    {
+        "breedName":  "ibizan podenco dog",
+        "imageUrl":  "/static/gallery/breed-175.jpg"
+    },
+    {
+        "breedName":  "icelandic sheepdog",
+        "imageUrl":  "/static/gallery/breed-176.jpg"
+    },
+    {
+        "breedName":  "irish glen of imaal terrier dog",
+        "imageUrl":  "/static/gallery/breed-177.jpg"
+    },
+    {
+        "breedName":  "irish red and white setter dog",
+        "imageUrl":  "/static/gallery/breed-178.jpg"
+    },
+    {
+        "breedName":  "irish red setter dog",
+        "imageUrl":  "/static/gallery/breed-179.jpg"
+    },
+    {
+        "breedName":  "irish soft coated wheaten terrier dog",
+        "imageUrl":  "/static/gallery/breed-180.jpg"
+    },
+    {
+        "breedName":  "irish terrier dog",
+        "imageUrl":  "/static/gallery/breed-181.jpg"
+    },
+    {
+        "breedName":  "irish water spaniel dog",
+        "imageUrl":  "/static/gallery/breed-182.jpg"
+    },
+    {
+        "breedName":  "irish wolfhound dog",
+        "imageUrl":  "/static/gallery/breed-183.jpg"
+    },
+    {
+        "breedName":  "istrian short-haired hound dog",
+        "imageUrl":  "/static/gallery/breed-184.jpg"
+    },
+    {
+        "breedName":  "istrian wire-haired hound dog",
+        "imageUrl":  "/static/gallery/breed-185.jpg"
+    },
+    {
+        "breedName":  "italian cane corso dog",
+        "imageUrl":  "/static/gallery/breed-186.jpg"
+    },
+    {
+        "breedName":  "italian pointing dog",
+        "imageUrl":  "/static/gallery/breed-187.jpg"
+    },
+    {
+        "breedName":  "italian rough-haired segugio dog",
+        "imageUrl":  "/static/gallery/breed-188.jpg"
+    },
+    {
+        "breedName":  "italian short-haired segugio dog",
+        "imageUrl":  "/static/gallery/breed-189.jpg"
+    },
+    {
+        "breedName":  "italian sighthound dog",
+        "imageUrl":  "/static/gallery/breed-190.jpg"
+    },
+    {
+        "breedName":  "italian spinone dog",
+        "imageUrl":  "/static/gallery/breed-191.jpg"
+    },
+    {
+        "breedName":  "italian volpino dog",
+        "imageUrl":  "/static/gallery/breed-192.jpg"
+    },
+    {
+        "breedName":  "jack russell terrier dog",
+        "imageUrl":  "/static/gallery/breed-193.jpg"
+    },
+    {
+        "breedName":  "jämthund dog",
+        "imageUrl":  "/static/gallery/breed-194.jpg"
+    },
+    {
+        "breedName":  "japanese chin dog",
+        "imageUrl":  "/static/gallery/breed-195.jpg"
+    },
+    {
+        "breedName":  "japanese spitz dog",
+        "imageUrl":  "/static/gallery/breed-196.jpg"
+    },
+    {
+        "breedName":  "japanese terrier dog",
+        "imageUrl":  "/static/gallery/breed-197.jpg"
+    },
+    {
+        "breedName":  "kai dog",
+        "imageUrl":  "/static/gallery/breed-198.jpg"
+    },
+    {
+        "breedName":  "kangal shepherd dog",
+        "imageUrl":  "/static/gallery/breed-199.jpg"
+    },
+    {
+        "breedName":  "karelian bear dog",
+        "imageUrl":  "/static/gallery/breed-200.jpg"
+    },
+    {
+        "breedName":  "karst shepherd dog",
+        "imageUrl":  "/static/gallery/breed-201.jpg"
+    },
+    {
+        "breedName":  "kerry blue terrier dog",
+        "imageUrl":  "/static/gallery/breed-202.jpg"
+    },
+    {
+        "breedName":  "king charles spaniel dog",
+        "imageUrl":  "/static/gallery/breed-203.jpg"
+    },
+    {
+        "breedName":  "kintamani-bali dog",
+        "imageUrl":  "/static/gallery/breed-204.jpg"
+    },
+    {
+        "breedName":  "kishu dog",
+        "imageUrl":  "/static/gallery/breed-205.jpg"
+    },
+    {
+        "breedName":  "kleiner münsterländer dog",
+        "imageUrl":  "/static/gallery/breed-206.jpg"
+    },
+    {
+        "breedName":  "komondor dog",
+        "imageUrl":  "/static/gallery/breed-207.jpg"
+    },
+    {
+        "breedName":  "korea jindo dog",
+        "imageUrl":  "/static/gallery/breed-208.jpg"
+    },
+    {
+        "breedName":  "kromfohrländer dog",
+        "imageUrl":  "/static/gallery/breed-209.jpg"
+    },
+    {
+        "breedName":  "kuvasz dog",
+        "imageUrl":  "/static/gallery/breed-210.jpg"
+    },
+    {
+        "breedName":  "labrador retriever dog",
+        "imageUrl":  "/static/gallery/breed-211.jpg"
+    },
+    {
+        "breedName":  "lakeland terrier dog",
+        "imageUrl":  "/static/gallery/breed-212.jpg"
+    },
+    {
+        "breedName":  "lancashire heeler dog",
+        "imageUrl":  "/static/gallery/breed-213.jpg"
+    },
+    {
+        "breedName":  "landseer (european continental type) dog",
+        "imageUrl":  "/static/gallery/breed-214.jpg"
+    },
+    {
+        "breedName":  "lapponian herder dog",
+        "imageUrl":  "/static/gallery/breed-215.jpg"
+    },
+    {
+        "breedName":  "large munsterlander dog",
+        "imageUrl":  "/static/gallery/breed-216.jpg"
+    },
+    {
+        "breedName":  "leonberger dog",
+        "imageUrl":  "/static/gallery/breed-217.jpg"
+    },
+    {
+        "breedName":  "lhasa apso dog",
+        "imageUrl":  "/static/gallery/breed-218.jpg"
+    },
+    {
+        "breedName":  "little lion dog",
+        "imageUrl":  "/static/gallery/breed-219.jpg"
+    },
+    {
+        "breedName":  "long-haired pyrenean sheepdog",
+        "imageUrl":  "/static/gallery/breed-220.jpg"
+    },
+    {
+        "breedName":  "majorca mastiff dog",
+        "imageUrl":  "/static/gallery/breed-221.jpg"
+    },
+    {
+        "breedName":  "majorca shepherd dog",
+        "imageUrl":  "/static/gallery/breed-222.jpg"
+    },
+    {
+        "breedName":  "maltese dog",
+        "imageUrl":  "/static/gallery/breed-223.jpg"
+    },
+    {
+        "breedName":  "manchester terrier dog",
+        "imageUrl":  "/static/gallery/breed-224.jpg"
+    },
+    {
+        "breedName":  "maremma and the abruzzes sheepdog",
+        "imageUrl":  "/static/gallery/breed-225.jpg"
+    },
+    {
+        "breedName":  "mastiff dog",
+        "imageUrl":  "/static/gallery/breed-226.jpg"
+    },
+    {
+        "breedName":  "medium-sized anglo-french hound dog",
+        "imageUrl":  "/static/gallery/breed-227.jpg"
+    },
+    {
+        "breedName":  "miniature american shepherd dog",
+        "imageUrl":  "/static/gallery/breed-228.jpg"
+    },
+    {
+        "breedName":  "miniature bull terrier dog",
+        "imageUrl":  "/static/gallery/breed-229.jpg"
+    },
+    {
+        "breedName":  "miniature pinscher dog",
+        "imageUrl":  "/static/gallery/breed-230.jpg"
+    },
+    {
+        "breedName":  "miniature schnauzer dog",
+        "imageUrl":  "/static/gallery/breed-231.jpg"
+    },
+    {
+        "breedName":  "montenegrin mountain hound dog",
+        "imageUrl":  "/static/gallery/breed-232.jpg"
+    },
+    {
+        "breedName":  "mudi dog",
+        "imageUrl":  "/static/gallery/breed-233.jpg"
+    },
+    {
+        "breedName":  "neapolitan mastiff dog",
+        "imageUrl":  "/static/gallery/breed-234.jpg"
+    },
+    {
+        "breedName":  "nederlandse kooikerhondje dog",
+        "imageUrl":  "/static/gallery/breed-235.jpg"
+    },
+    {
+        "breedName":  "newfoundland dog",
+        "imageUrl":  "/static/gallery/breed-236.jpg"
+    },
+    {
+        "breedName":  "norfolk terrier dog",
+        "imageUrl":  "/static/gallery/breed-237.jpg"
+    },
+    {
+        "breedName":  "norman artesien basset dog",
+        "imageUrl":  "/static/gallery/breed-238.jpg"
+    },
+    {
+        "breedName":  "norrbottenspitz dog",
+        "imageUrl":  "/static/gallery/breed-239.jpg"
+    },
+    {
+        "breedName":  "norwegian buhund dog",
+        "imageUrl":  "/static/gallery/breed-240.jpg"
+    },
+    {
+        "breedName":  "norwegian elkhound black dog",
+        "imageUrl":  "/static/gallery/breed-241.jpg"
+    },
+    {
+        "breedName":  "norwegian elkhound grey dog",
+        "imageUrl":  "/static/gallery/breed-242.jpg"
+    },
+    {
+        "breedName":  "norwegian hound dog",
+        "imageUrl":  "/static/gallery/breed-243.jpg"
+    },
+    {
+        "breedName":  "norwegian lundehund dog",
+        "imageUrl":  "/static/gallery/breed-244.jpg"
+    },
+    {
+        "breedName":  "norwich terrier dog",
+        "imageUrl":  "/static/gallery/breed-245.jpg"
+    },
+    {
+        "breedName":  "nova scotia duck tolling retriever dog",
+        "imageUrl":  "/static/gallery/breed-246.jpg"
+    },
+    {
+        "breedName":  "old danish pointing dog",
+        "imageUrl":  "/static/gallery/breed-247.jpg"
+    },
+    {
+        "breedName":  "old english sheepdog",
+        "imageUrl":  "/static/gallery/breed-248.jpg"
+    },
+    {
+        "breedName":  "otterhound dog",
+        "imageUrl":  "/static/gallery/breed-249.jpg"
+    },
+    {
+        "breedName":  "parson russell terrier dog",
+        "imageUrl":  "/static/gallery/breed-250.jpg"
+    },
+    {
+        "breedName":  "pekingese dog",
+        "imageUrl":  "/static/gallery/breed-251.jpg"
+    },
+    {
+        "breedName":  "peruvian hairless dog",
+        "imageUrl":  "/static/gallery/breed-252.jpg"
+    },
+    {
+        "breedName":  "petit basset griffon vendeen dog",
+        "imageUrl":  "/static/gallery/breed-253.jpg"
+    },
+    {
+        "breedName":  "petit brabançon dog",
+        "imageUrl":  "/static/gallery/breed-254.jpg"
+    },
+    {
+        "breedName":  "pharaoh hound dog",
+        "imageUrl":  "/static/gallery/breed-255.jpg"
+    },
+    {
+        "breedName":  "picardy sheepdog",
+        "imageUrl":  "/static/gallery/breed-256.jpg"
+    },
+    {
+        "breedName":  "picardy spaniel dog",
+        "imageUrl":  "/static/gallery/breed-257.jpg"
+    },
+    {
+        "breedName":  "poitevin dog",
+        "imageUrl":  "/static/gallery/breed-258.jpg"
+    },
+    {
+        "breedName":  "polish greyhound dog",
+        "imageUrl":  "/static/gallery/breed-259.jpg"
+    },
+    {
+        "breedName":  "polish hound dog",
+        "imageUrl":  "/static/gallery/breed-260.jpg"
+    },
+    {
+        "breedName":  "polish hunting dog",
+        "imageUrl":  "/static/gallery/breed-261.jpg"
+    },
+    {
+        "breedName":  "polish lowland sheepdog",
+        "imageUrl":  "/static/gallery/breed-262.jpg"
+    },
+    {
+        "breedName":  "pont-audemer spaniel dog",
+        "imageUrl":  "/static/gallery/breed-263.jpg"
+    },
+    {
+        "breedName":  "poodle dog",
+        "imageUrl":  "/static/gallery/breed-264.jpg"
+    },
+    {
+        "breedName":  "porcelaine dog",
+        "imageUrl":  "/static/gallery/breed-265.jpg"
+    },
+    {
+        "breedName":  "portuguese pointing dog",
+        "imageUrl":  "/static/gallery/breed-266.jpg"
+    },
+    {
+        "breedName":  "portuguese sheepdog",
+        "imageUrl":  "/static/gallery/breed-267.jpg"
+    },
+    {
+        "breedName":  "portuguese warren hound-portuguese podengo dog",
+        "imageUrl":  "/static/gallery/breed-268.jpg"
+    },
+    {
+        "breedName":  "portuguese water dog",
+        "imageUrl":  "/static/gallery/breed-269.jpg"
+    },
+    {
+        "breedName":  "posavatz hound dog",
+        "imageUrl":  "/static/gallery/breed-270.jpg"
+    },
+    {
+        "breedName":  "prague ratter dog",
+        "imageUrl":  "/static/gallery/breed-271.jpg"
+    },
+    {
+        "breedName":  "presa canario dog",
+        "imageUrl":  "/static/gallery/breed-272.jpg"
+    },
+    {
+        "breedName":  "pudelpointer dog",
+        "imageUrl":  "/static/gallery/breed-273.jpg"
+    },
+    {
+        "breedName":  "pug dog",
+        "imageUrl":  "/static/gallery/breed-274.jpg"
+    },
+    {
+        "breedName":  "puli dog",
+        "imageUrl":  "/static/gallery/breed-275.jpg"
+    },
+    {
+        "breedName":  "pumi dog",
+        "imageUrl":  "/static/gallery/breed-276.jpg"
+    },
+    {
+        "breedName":  "pyrenean mastiff dog",
+        "imageUrl":  "/static/gallery/breed-277.jpg"
+    },
+    {
+        "breedName":  "pyrenean mountain dog",
+        "imageUrl":  "/static/gallery/breed-278.jpg"
+    },
+    {
+        "breedName":  "pyrenean sheepdog - smooth faced",
+        "imageUrl":  "/static/gallery/breed-279.jpg"
+    },
+    {
+        "breedName":  "rafeiro of alentejo dog",
+        "imageUrl":  "/static/gallery/breed-280.jpg"
+    },
+    {
+        "breedName":  "rhodesian ridgeback dog",
+        "imageUrl":  "/static/gallery/breed-281.jpg"
+    },
+    {
+        "breedName":  "romagna water dog",
+        "imageUrl":  "/static/gallery/breed-282.jpg"
+    },
+    {
+        "breedName":  "romanian bucovina shepherd dog",
+        "imageUrl":  "/static/gallery/breed-283.jpg"
+    },
+    {
+        "breedName":  "romanian carpathian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-284.jpg"
+    },
+    {
+        "breedName":  "romanian mioritic shepherd dog",
+        "imageUrl":  "/static/gallery/breed-285.jpg"
+    },
+    {
+        "breedName":  "rottweiler dog",
+        "imageUrl":  "/static/gallery/breed-286.jpg"
+    },
+    {
+        "breedName":  "russian black terrier dog",
+        "imageUrl":  "/static/gallery/breed-287.jpg"
+    },
+    {
+        "breedName":  "russian toy dog",
+        "imageUrl":  "/static/gallery/breed-288.jpg"
+    },
+    {
+        "breedName":  "russian-european laika dog",
+        "imageUrl":  "/static/gallery/breed-289.jpg"
+    },
+    {
+        "breedName":  "saarloos wolfhond dog",
+        "imageUrl":  "/static/gallery/breed-290.jpg"
+    },
+    {
+        "breedName":  "saint germain pointer dog",
+        "imageUrl":  "/static/gallery/breed-291.jpg"
+    },
+    {
+        "breedName":  "saint miguel cattle dog",
+        "imageUrl":  "/static/gallery/breed-292.jpg"
+    },
+    {
+        "breedName":  "saluki dog",
+        "imageUrl":  "/static/gallery/breed-293.jpg"
+    },
+    {
+        "breedName":  "samoyed dog",
+        "imageUrl":  "/static/gallery/breed-294.jpg"
+    },
+    {
+        "breedName":  "schillerstövare dog",
+        "imageUrl":  "/static/gallery/breed-295.jpg"
+    },
+    {
+        "breedName":  "schipperke dog",
+        "imageUrl":  "/static/gallery/breed-296.jpg"
+    },
+    {
+        "breedName":  "schnauzer dog",
+        "imageUrl":  "/static/gallery/breed-297.jpg"
+    },
+    {
+        "breedName":  "scottish terrier dog",
+        "imageUrl":  "/static/gallery/breed-298.jpg"
+    },
+    {
+        "breedName":  "sealyham terrier dog",
+        "imageUrl":  "/static/gallery/breed-299.jpg"
+    },
+    {
+        "breedName":  "segugio maremmano dog",
+        "imageUrl":  "/static/gallery/breed-300.jpg"
+    },
+    {
+        "breedName":  "serbian hound dog",
+        "imageUrl":  "/static/gallery/breed-301.jpg"
+    },
+    {
+        "breedName":  "serbian tricolour hound dog",
+        "imageUrl":  "/static/gallery/breed-302.jpg"
+    },
+    {
+        "breedName":  "shar pei dog",
+        "imageUrl":  "/static/gallery/breed-303.jpg"
+    },
+    {
+        "breedName":  "shetland sheepdog",
+        "imageUrl":  "/static/gallery/breed-304.jpg"
+    },
+    {
+        "breedName":  "shiba dog",
+        "imageUrl":  "/static/gallery/breed-305.jpg"
+    },
+    {
+        "breedName":  "shih tzu dog",
+        "imageUrl":  "/static/gallery/breed-306.jpg"
+    },
+    {
+        "breedName":  "shikoku dog",
+        "imageUrl":  "/static/gallery/breed-307.jpg"
+    },
+    {
+        "breedName":  "siberian husky dog",
+        "imageUrl":  "/static/gallery/breed-308.jpg"
+    },
+    {
+        "breedName":  "skye terrier dog",
+        "imageUrl":  "/static/gallery/breed-309.jpg"
+    },
+    {
+        "breedName":  "sloughi dog",
+        "imageUrl":  "/static/gallery/breed-310.jpg"
+    },
+    {
+        "breedName":  "slovakian chuvach dog",
+        "imageUrl":  "/static/gallery/breed-311.jpg"
+    },
+    {
+        "breedName":  "slovakian hound dog",
+        "imageUrl":  "/static/gallery/breed-312.jpg"
+    },
+    {
+        "breedName":  "smålandsstövare dog",
+        "imageUrl":  "/static/gallery/breed-313.jpg"
+    },
+    {
+        "breedName":  "small blue gascony dog",
+        "imageUrl":  "/static/gallery/breed-314.jpg"
+    },
+    {
+        "breedName":  "small swiss hound dog",
+        "imageUrl":  "/static/gallery/breed-315.jpg"
+    },
+    {
+        "breedName":  "south russian shepherd dog",
+        "imageUrl":  "/static/gallery/breed-316.jpg"
+    },
+    {
+        "breedName":  "spanish greyhound dog",
+        "imageUrl":  "/static/gallery/breed-317.jpg"
+    },
+    {
+        "breedName":  "spanish hound dog",
+        "imageUrl":  "/static/gallery/breed-318.jpg"
+    },
+    {
+        "breedName":  "spanish mastiff dog",
+        "imageUrl":  "/static/gallery/breed-319.jpg"
+    },
+    {
+        "breedName":  "spanish water dog",
+        "imageUrl":  "/static/gallery/breed-320.jpg"
+    },
+    {
+        "breedName":  "st. bernard dog",
+        "imageUrl":  "/static/gallery/breed-321.jpg"
+    },
+    {
+        "breedName":  "stabijhoun dog",
+        "imageUrl":  "/static/gallery/breed-322.jpg"
+    },
+    {
+        "breedName":  "staffordshire bull terrier dog",
+        "imageUrl":  "/static/gallery/breed-323.jpg"
+    },
+    {
+        "breedName":  "sussex spaniel dog",
+        "imageUrl":  "/static/gallery/breed-324.jpg"
+    },
+    {
+        "breedName":  "swedish lapphund dog",
+        "imageUrl":  "/static/gallery/breed-325.jpg"
+    },
+    {
+        "breedName":  "swedish vallhund dog",
+        "imageUrl":  "/static/gallery/breed-326.jpg"
+    },
+    {
+        "breedName":  "swiss hound dog",
+        "imageUrl":  "/static/gallery/breed-327.jpg"
+    },
+    {
+        "breedName":  "taiwan dog",
+        "imageUrl":  "/static/gallery/breed-328.jpg"
+    },
+    {
+        "breedName":  "tatra shepherd dog",
+        "imageUrl":  "/static/gallery/breed-329.jpg"
+    },
+    {
+        "breedName":  "thai bangkaew dog",
+        "imageUrl":  "/static/gallery/breed-330.jpg"
+    },
+    {
+        "breedName":  "thai ridgeback dog",
+        "imageUrl":  "/static/gallery/breed-331.jpg"
+    },
+    {
+        "breedName":  "tibetan mastiff dog",
+        "imageUrl":  "/static/gallery/breed-332.jpg"
+    },
+    {
+        "breedName":  "tibetan spaniel dog",
+        "imageUrl":  "/static/gallery/breed-333.jpg"
+    },
+    {
+        "breedName":  "tibetan terrier dog",
+        "imageUrl":  "/static/gallery/breed-334.jpg"
+    },
+    {
+        "breedName":  "tosa dog",
+        "imageUrl":  "/static/gallery/breed-335.jpg"
+    },
+    {
+        "breedName":  "transmontano mastiff dog",
+        "imageUrl":  "/static/gallery/breed-336.jpg"
+    },
+    {
+        "breedName":  "tyrolean hound dog",
+        "imageUrl":  "/static/gallery/breed-337.jpg"
+    },
+    {
+        "breedName":  "valencian terrier dog",
+        "imageUrl":  "/static/gallery/breed-338.jpg"
+    },
+    {
+        "breedName":  "weimaraner dog",
+        "imageUrl":  "/static/gallery/breed-339.jpg"
+    },
+    {
+        "breedName":  "welsh corgi (cardigan) dog",
+        "imageUrl":  "/static/gallery/breed-340.jpg"
+    },
+    {
+        "breedName":  "welsh corgi (pembroke) dog",
+        "imageUrl":  "/static/gallery/breed-341.jpg"
+    },
+    {
+        "breedName":  "welsh springer spaniel dog",
+        "imageUrl":  "/static/gallery/breed-342.jpg"
+    },
+    {
+        "breedName":  "welsh terrier dog",
+        "imageUrl":  "/static/gallery/breed-343.jpg"
+    },
+    {
+        "breedName":  "west highland white terrier dog",
+        "imageUrl":  "/static/gallery/breed-344.jpg"
+    },
+    {
+        "breedName":  "west siberian laika dog",
+        "imageUrl":  "/static/gallery/breed-345.jpg"
+    },
+    {
+        "breedName":  "westphalian dachsbracke dog",
+        "imageUrl":  "/static/gallery/breed-346.jpg"
+    },
+    {
+        "breedName":  "whippet dog",
+        "imageUrl":  "/static/gallery/breed-347.jpg"
+    },
+    {
+        "breedName":  "white swiss shepherd dog",
+        "imageUrl":  "/static/gallery/breed-348.jpg"
+    },
+    {
+        "breedName":  "wire-haired pointing griffon korthals dog",
+        "imageUrl":  "/static/gallery/breed-349.jpg"
+    },
+    {
+        "breedName":  "wirehaired slovakian pointer dog",
+        "imageUrl":  "/static/gallery/breed-350.jpg"
+    },
+    {
+        "breedName":  "xoloitzcuintle dog",
+        "imageUrl":  "/static/gallery/breed-351.jpg"
+    },
+    {
+        "breedName":  "yakutian laika dog",
+        "imageUrl":  "/static/gallery/breed-352.jpg"
+    },
+    {
+        "breedName":  "yorkshire terrier dog",
+        "imageUrl":  "/static/gallery/breed-353.jpg"
+    },
+    {
+        "breedName":  "yugoslavian shepherd dog - sharplanina",
+        "imageUrl":  "/static/gallery/breed-354.jpg"
+    }
+]
