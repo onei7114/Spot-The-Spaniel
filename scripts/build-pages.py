@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import shutil
+import json
 from pathlib import Path
 
 
@@ -21,6 +22,12 @@ def main() -> None:
     index_text = index_text.replace('href="/static/styles.css"', 'href="./styles.css"')
     index_text = index_text.replace('src="/static/app.js"', 'src="./app.js"')
     index.write_text(index_text, encoding="utf-8")
+
+    manifest = DESTINATION / "gallery-manifest.json"
+    gallery = json.loads(manifest.read_text(encoding="utf-8"))
+    for entry in gallery:
+        entry["imageUrl"] = entry["imageUrl"].replace("/static/gallery/", "./gallery/")
+    manifest.write_text(json.dumps(gallery, ensure_ascii=False, indent=2), encoding="utf-8")
 
     app = DESTINATION / "app.js"
     app_text = app.read_text(encoding="utf-8")
