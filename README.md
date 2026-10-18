@@ -98,11 +98,6 @@ The current public URL is:
 The workflow builds and publishes only the static app and representative gallery. The
 original training dataset is not needed for GitHub Pages.
 
-The app includes a Content Security Policy that limits scripts, model requests, images, and
-workers to the sources required by the browser-based model. GitHub Pages receives the policy
-through the page metadata; FastAPI also sends it as an HTTP response header when serving the
-app locally or through a server deployment.
-
 ## Deploy with Render
 
 The repository also contains [`render.yaml`](render.yaml). In Render:

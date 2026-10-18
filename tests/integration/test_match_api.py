@@ -113,9 +113,5 @@ def test_static_page_and_assets_are_served_same_origin(tmp_path: Path) -> None:
     assert page.status_code == 200
     assert "Spot The Spaniel" in page.text
     assert "Predictions run in your browser using a spaniel Teachable Machine model." in page.text
-    assert "Content-Security-Policy" in page.headers
-    assert "https://cdn.jsdelivr.net" in page.headers["Content-Security-Policy"]
-    assert "https://storage.googleapis.com" in page.headers["Content-Security-Policy"]
-    assert 'http-equiv="Content-Security-Policy"' in page.text
     assert stylesheet.status_code == 200
     assert script.status_code == 200
