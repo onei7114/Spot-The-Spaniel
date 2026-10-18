@@ -80,7 +80,8 @@ URL; verify the page and gallery assets load.
 - [X] T027 [P] Update the project constitution for browser-first spaniel matching in `.specify/memory/constitution.md`
 - [X] T028 Run focused unit, integration, and browser-flow tests and confirm the current suite passes in `tests/`
 - [X] T029 Verify the static build contains `dist/index.html`, `dist/app.js`, `dist/gallery-manifest.json`, and gallery images using `scripts/build-pages.py`
-- [ ] T030 Verify the primary flow in native Safari on macOS before claiming full browser certification
+- [ ] T030 Acceptance: upload, progress, result, and error flows are operable and readable on desktop/mobile viewports in latest stable Chrome, Firefox, Edge.
+      Confirm native Safari on a macOS test host before release browser certification.Verify the primary flow in native Safari on macOS before claiming full browser certification
 
 ## Dependencies and Execution Order
 
