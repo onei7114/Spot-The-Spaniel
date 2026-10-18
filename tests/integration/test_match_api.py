@@ -113,5 +113,9 @@ def test_static_page_and_assets_are_served_same_origin(tmp_path: Path) -> None:
     assert page.status_code == 200
     assert "Spot The Spaniel" in page.text
     assert "Predictions run in your browser using a spaniel Teachable Machine model." in page.text
+    assert "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js" in page.text
+    assert "https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.5/dist/teachablemachine-image.min.js" in page.text
+    assert 'integrity="sha384-' in page.text
+    assert 'crossorigin="anonymous"' in page.text
     assert stylesheet.status_code == 200
     assert script.status_code == 200
