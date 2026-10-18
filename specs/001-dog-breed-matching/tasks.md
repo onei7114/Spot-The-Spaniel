@@ -86,6 +86,7 @@ URL; verify the page and gallery assets load.
 - [X] T032 Reject excessive decoded image dimensions and handle browser memory/allocation failures before or during TensorFlow inference in `src/dog_match/static/app.js`
 - [X] T033 Cover MIME, file-size, and decoded-dimension rejection in `tests/e2e/test_match_flow.py`
 - [X] T034 Pin external model-library versions and add Subresource Integrity hashes in `src/dog_match/static/index.html`
+- [X] T035 Use the MIME-only JPEG picker filter so uppercase `.JPG` and `.JPEG` files are included across browsers in `src/dog_match/static/index.html`
 
 ## Dependencies and Execution Order
 
