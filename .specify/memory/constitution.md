@@ -14,6 +14,10 @@ Follow-up TODOs: Confirm the original ratification date.
 ## Core Principles
 
 ### I. Browser-First Spaniel Matching
+The product MUST remain a Python application with a browser-based user experience and a CLI 
+entry point for running or operating the application. The web interface MUST let a user submit 
+a Spaniel photograph and receive a Spaniel-match result. Operational commands and user-facing 
+workflows MUST have clear, documented responsibilities.
 The product MUST provide a browser-based experience that accepts a clear JPG/JPEG dog photo
 and evaluates it with the published Teachable Machine spaniel model
 `YfNmBnU00`. The active user-facing match flow MUST NOT depend on the legacy local CLIP
