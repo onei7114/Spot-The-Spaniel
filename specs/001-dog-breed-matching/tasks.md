@@ -81,7 +81,9 @@ URL; verify the page and gallery assets load.
 - [X] T028 Run focused unit, integration, and browser-flow tests and confirm the current suite passes in `tests/`
 - [X] T029 Verify the static build contains `dist/index.html`, `dist/app.js`, `dist/gallery-manifest.json`, and gallery images using `scripts/build-pages.py`
 - [ ] T030 Acceptance: upload, progress, result, and error flows are operable and readable on desktop/mobile viewports in latest stable Chrome, Firefox, Edge.
-      Confirm native Safari on a macOS test host before release browser certification.Verify the primary flow in native Safari on macOS before claiming full browser certification
+     Confirm native Safari on a macOS test host before release browser certification.
+- [X] T031 Add a CSP response header and GitHub Pages meta policy that allow only required model, script, image, and worker sources in `src/dog_match/app.py` and `src/dog_match/static/index.html`
+- [X] T032 Test CSP coverage for local hosting and the static deployment source in `tests/integration/test_match_api.py`
 
 ## Dependencies and Execution Order
 

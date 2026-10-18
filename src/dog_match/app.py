@@ -26,6 +26,18 @@ DISCLAIMER = (
     "This is the closest visual match in the project photo collection, "
     "not a guaranteed breed identification."
 )
+CSP_POLICY = (
+    "default-src 'self'; "
+    "script-src 'self' https://cdn.jsdelivr.net; "
+    "style-src 'self'; "
+    "img-src 'self' data: blob:; "
+    "connect-src 'self' https://teachablemachine.withgoogle.com https://storage.googleapis.com; "
+    "worker-src 'self' blob:; "
+    "object-src 'none'; "
+    "base-uri 'self'; "
+    "form-action 'self'; "
+    "frame-ancestors 'none'"
+)
 
 
 def _error(code: str, message: str, http_status: int) -> JSONResponse:
@@ -45,6 +57,12 @@ def create_app(
     app.state.image_encoder = encoder
     static_dir = Path(__file__).parent / "static"
     app.mount("/static", StaticFiles(directory=static_dir), name="static")
+
+    @app.middleware("http")
+    async def add_security_headers(request: Request, call_next):
+        response = await call_next(request)
+        response.headers.setdefault("Content-Security-Policy", CSP_POLICY)
+        return response
 
     @app.get("/", include_in_schema=False)
     async def home() -> FileResponse:
