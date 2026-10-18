@@ -15,6 +15,9 @@ const secondaryPrediction = document.querySelector("#secondary-prediction");
 const spanielModelId = "YfNmBnU00";
 const minimumConfidence = 0.50;
 const minimumPredictionMargin = 0.10;
+const maximumFileBytes = 10 * 1024 * 1024;
+const maximumImagePixels = 25_000_000;
+const maximumImageDimension = 8192;
 
 let spanielModelPromise;
 let galleryPromise;
@@ -85,13 +88,35 @@ function loadSpanielModel() {
 }
 
 async function predictAcrossModels(file) {
-  const [spanielModel, gallery] = await Promise.all([loadSpanielModel(), loadGallery()]);
   const image = document.createElement("img");
   const objectUrl = URL.createObjectURL(file);
   image.src = objectUrl;
   try {
     await image.decode();
-    const predictions = await spanielModel.predict(image);
+    if (
+      image.naturalWidth > maximumImageDimension ||
+      image.naturalHeight > maximumImageDimension ||
+      image.naturalWidth * image.naturalHeight >= maximumImagePixels
+    ) {
+      throw new Error(
+        "This image is too large to process safely. Choose a photo with fewer than 25 megapixels."
+      );
+    }
+    const [spanielModel, gallery] = await Promise.all([loadSpanielModel(), loadGallery()]);
+    let predictions;
+    try {
+      predictions = await spanielModel.predict(image);
+    } catch (error) {
+      if (
+        error instanceof RangeError ||
+        (error instanceof Error && /out of memory|allocation failed/i.test(error.message))
+      ) {
+        throw new Error(
+          "This image could not be processed safely. Choose a smaller photo and try again."
+        );
+      }
+      throw error;
+    }
     const notDogPrediction = predictions.find(
       (prediction) => prediction.className.trim().toLowerCase() === "not a dog"
     );
@@ -144,8 +169,13 @@ form.addEventListener("submit", async (event) => {
     fileInput.focus();
     return;
   }
-  if (!/^image\/jpeg$/i.test(file.type) && !/\.jpe?g$/i.test(file.name)) {
+  if (file.type !== "image/jpeg") {
     showError("Choose a JPG or JPEG photo and try again.");
+    fileInput.focus();
+    return;
+  }
+  if (file.size > maximumFileBytes) {
+    showError("Choose a JPG or JPEG photo that is no larger than 10 MB.");
     fileInput.focus();
     return;
   }

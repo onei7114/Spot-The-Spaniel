@@ -106,6 +106,51 @@ def test_failed_match_shows_recovery_message_and_allows_retry(page: Page, static
     expect(page.locator("#breed-name")).to_have_text("American Cocker Spaniel")
 
 
+def test_upload_validation_rejects_wrong_mime_type_and_oversized_files(
+    page: Page, static_site_url: str
+) -> None:
+    page.goto(static_site_url)
+    photo_control = page.get_by_label("Your dog's photo")
+    submit_button = page.get_by_role("button", name="Spot the match")
+
+    photo_control.set_input_files(
+        {"name": "dog.jpg", "mimeType": "image/png", "buffer": b"not a jpeg"}
+    )
+    submit_button.click()
+    expect(page.locator("#error-message")).to_have_text("Choose a JPG or JPEG photo and try again.")
+
+    photo_control.set_input_files(
+        {"name": "large.jpg", "mimeType": "image/jpeg", "buffer": b"x" * (10 * 1024 * 1024 + 1)}
+    )
+    submit_button.click()
+    expect(page.locator("#error-message")).to_have_text(
+        "Choose a JPG or JPEG photo that is no larger than 10 MB."
+    )
+
+
+def test_upload_validation_rejects_images_with_excessive_decoded_dimensions(
+    page: Page, static_site_url: str
+) -> None:
+    from io import BytesIO
+
+    image = Image.new("RGB", (5000, 5000), (40, 120, 50))
+    output = BytesIO()
+    image.save(output, format="JPEG")
+    image.close()
+
+    page.goto(static_site_url)
+    page.evaluate("""window.tmImage = {
+        load: async () => { throw new Error("Model should not load for oversized dimensions"); }
+    }""")
+    page.get_by_label("Your dog's photo").set_input_files(
+        {"name": "huge.jpg", "mimeType": "image/jpeg", "buffer": output.getvalue()}
+    )
+    page.get_by_role("button", name="Spot the match").click()
+    expect(page.locator("#error-message")).to_have_text(
+        "This image is too large to process safely. Choose a photo with fewer than 25 megapixels."
+    )
+
+
 def test_tied_predictions_show_both_breeds(page: Page, static_site_url: str) -> None:
     image = Image.new("RGB", (12, 12), (40, 120, 50))
     from io import BytesIO
