@@ -1,90 +1,161 @@
 # Spot The Spaniel
 
-Spot The Spaniel is a local web application that compares one uploaded JPG/JPEG photo with a browser-loaded Teachable Machine spaniel model and displays the highest-scoring spaniel prediction plus one representative photo from the matching breed gallery. The model includes a `Not A Dog` class.
+Spot The Spaniel is a browser-based spaniel breed matching app. A visitor uploads a JPG or
+JPEG dog photo, and the app uses a Teachable Machine model to return the most confident
+spaniel prediction and a representative breed photo.
+
+Try the live site:
+
+<https://onei7114.github.io/Spot-The-Spaniel/>
+
+## How the app works
+
+1. The visitor selects a JPG or JPEG photo.
+2. The photo is processed in the browser with the published spaniel model.
+3. The app rejects the photo if the model selects `Not A Dog`.
+4. The app accepts a result only when the top spaniel prediction is at least 50% and leads
+   the next class by at least 10 percentage points.
+5. The app displays the highest-confidence spaniel, or all breeds tied for first place.
+6. A representative photo is loaded from the static gallery.
+
+The confidence value is a model estimate, not a guaranteed breed identification. The
+uploaded photo is not sent to or stored by the application server.
+
+## Run the site locally
+
+The current browser app does not require the original dog database or CLIP model. To run the
+same static site locally on Windows:
+
+### 1. Clone the repository
+
+```powershell
+git clone https://github.com/onei7114/Spot-The-Spaniel.git
+cd Spot-The-Spaniel
+```
+
+### 2. Build the static site
+
+Python 3.11 or newer is recommended.
+
+```powershell
+py -3.11 scripts\build-pages.py
+```
+
+This copies the browser app and gallery into the generated `dist\` directory and adjusts
+paths for GitHub Pages or another static host.
+
+### 3. Start a local web server
+
+```powershell
+py -3.11 -m http.server 8000 --directory dist
+```
+
+Open <http://127.0.0.1:8000/> in a browser.
+
+Do not open `index.html` directly with a `file://` URL. A local web server is required so
+the gallery manifest and images load correctly.
+
+Press `Ctrl+C` in the terminal to stop the server.
 
 ## Requirements
 
-- Python 3.11
-- Network access to load the TensorFlow.js and Teachable Machine libraries and the published spaniel model
+- Python 3.11 or newer
+- A modern browser with JavaScript enabled
+- Internet access to load TensorFlow.js, the Teachable Machine model, and the model gallery
 
-## Install
+Supported browsers include current Chrome, Edge, and Firefox releases.
+
+## Repository structure
+
+```text
+src/dog_match/static/
+  index.html              Browser page
+  app.js                  Model loading, prediction, filtering, and gallery lookup
+  styles.css              Page styling
+  gallery-manifest.json   Breed-to-photo mapping
+  gallery/                Representative breed photos
+
+scripts/build-pages.py    Builds the static deployment directory
+tests/                    Unit, integration, and browser-flow tests
+.github/workflows/        GitHub Pages deployment workflow
+render.yaml               Render deployment configuration
+```
+
+## Publish with GitHub Pages
+
+The repository includes a workflow at
+[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml).
+
+1. Push the repository to GitHub.
+2. Open **Settings > Pages**.
+3. Set the source to **GitHub Actions**.
+4. Push to the `main` branch, or run **Deploy Spot The Spaniel** from the Actions tab.
+
+The current public URL is:
+
+<https://onei7114.github.io/Spot-The-Spaniel/>
+
+The workflow builds and publishes only the static app and representative gallery. The
+original training dataset is not needed for GitHub Pages.
+
+## Deploy with Render
+
+The repository also contains [`render.yaml`](render.yaml). In Render:
+
+1. Choose **New > Blueprint**.
+2. Connect the GitHub repository.
+3. Select the `main` branch.
+4. Apply the detected `render.yaml` configuration.
+
+Render will provide a public `onrender.com` URL. The free service may sleep after inactivity,
+so the first visit can take longer. The service only delivers the app files; prediction still
+runs in each visitor's browser.
+
+## Testing and development
+
+Create a virtual environment and install the development dependencies:
 
 ```powershell
 py -3.11 -m venv .venv311
-.\.venv311\Scripts\python.exe -m pip install -e ".[dev,model]"
-```
-Predictions run in the browser. The published Teachable Machine models are external model assets; uploaded photos are sent to those models only through browser inference and are not uploaded to this app's server.
-
-## Optional legacy reference index
-
-The original local CLIP reference index remains available for development and evaluation, but the browser application no longer calls it for matches.
-
-```powershell
-.\.venv311\Scripts\python.exe -m dog_match validate-dataset --dataset .\Dog-Breeds-Dataset
-.\.venv311\Scripts\python.exe -m dog_match build-index --dataset .\Dog-Breeds-Dataset --cache-dir .\.cache\dog-match
+.\.venv311\Scripts\python.exe -m pip install -e ".[dev]"
 ```
 
-The dataset is treated as read-only. Breed names come only from image parent-folder titles. The generated vector index is rebuildable and stored outside the dataset; it does not copy image files.
-
-## Start the App
+Run the focused test suite:
 
 ```powershell
-.\.venv311\Scripts\python.exe -m dog_match serve --dataset .\Dog-Breeds-Dataset --cache-dir .\.cache\dog-match --host 127.0.0.1 --port 8000
+.\.venv311\Scripts\python.exe -m pytest tests\unit tests\integration tests\e2e\test_match_flow.py -q
 ```
 
-Open `http://127.0.0.1:8000/`. The page loads TensorFlow.js and the spaniel Teachable Machine model in the browser.
-
-## Publish a Free Shareable Link
-
-The repository includes a GitHub Pages workflow for the browser-only app. After pushing the project to GitHub:
-
-1. Open the repository's **Settings > Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Push to `main` or run **Deploy Spot The Spaniel** from the Actions tab.
-
-The public link will be:
-
-`https://onei7114.github.io/Spot-The-Spaniel/`
-
-The workflow publishes only the static app and representative gallery. The local training dataset is excluded from Git with `.gitignore`.
-
-## Deploy on Render
-
-The repository also includes `render.yaml` for a public Render web service. In Render, choose **New > Blueprint**, connect this GitHub repository, and select the `main` branch. Render will detect the blueprint and use the included build and start commands.
-
-Render provides a public URL such as:
-
-`https://spot-the-spaniel.onrender.com`
-
-The free service may sleep after inactivity, so the first request after a period of inactivity can take longer. Predictions still run in each visitor's browser; the service only delivers the app files.
-
-## Privacy and Upload Safety
-
-Uploaded photos are validated as readable JPEG content and processed locally in the browser. The application does not create user accounts, store personal details, save uploaded photos, retain match history, or log raw filenames/image contents. The uploaded photo is not sent to this app's server.
-
-## Similarity and Accuracy
-
-The displayed 1-100% number is the highest raw class probability returned by the spaniel Teachable Machine model. It is not calibrated breed confidence or a guarantee that the breed name is correct. A result is rejected when `Not A Dog` is at least as likely as the best spaniel class, or when the best spaniel prediction is below 50% or does not lead the next spaniel class by at least 10 percentage points. The displayed breed photo is representative, not the closest training image.
-
-The static gallery contains one photo per dataset breed folder. Preserve the dataset's included README and CC BY 4.0 license when distributing the gallery.
-
-Run the 100-photo evaluation after building the full reference index:
+Run all tests with coverage:
 
 ```powershell
-.\.venv311\Scripts\python.exe scripts\evaluate_matching.py --dataset .\Dog-Breeds-Dataset --cache-dir .\.cache\dog-match --sample-size 100 --seed 42
+.\.venv311\Scripts\python.exe -m pytest --cov=dog_match --cov-report=term-missing
 ```
 
-The initial release gate is at least 80 correct parent-folder breed labels out of 100. Do not claim this threshold is met until the evaluation report is produced.
-
-## Tests and Type Checking
+Run Python type checking:
 
 ```powershell
-.\.venv311\Scripts\python.exe -m pytest --cov=dog_match --cov-report=term-missing --cov-fail-under=80.1
 .\.venv311\Scripts\python.exe -m mypy src\dog_match
 ```
 
-Coverage must be strictly greater than 80%. Browser-flow tests use Playwright. WebKit provides a Safari-family check on Windows; verify actual Safari on a macOS test host for a release browser matrix.
+Browser-flow tests use Playwright. Install the required browser once if needed:
 
-## Dataset Attribution
+```powershell
+.\.venv311\Scripts\python.exe -m playwright install
+```
 
-The `Dog-Breeds-Dataset/` directory includes its own `README.md` and CC BY 4.0 `LICENSE`. Preserve both with the collection and retain attribution to the original dataset source as identified in its accompanying metadata. The presence of the FCI breed list does not by itself establish that FCI authored or licensed every photograph.
+## Legacy local matcher
+
+The repository still contains the earlier FastAPI/CLIP matcher and its development tools.
+Those files are retained for historical tests and evaluation, but they are not required by
+the active Spot The Spaniel browser flow or its public deployments.
+
+The legacy matcher requires the separate `Dog-Breeds-Dataset`, a generated CLIP index, and
+the optional model dependencies. Do not use that workflow unless you specifically need to
+evaluate or maintain the old matcher.
+
+## Privacy and image attribution
+
+Spot The Spaniel does not create accounts, store uploaded photos, retain match history, or
+log raw image contents. The representative gallery must retain the attribution and license
+information supplied with its source collection.
