@@ -12,6 +12,12 @@ honest confidence estimate. Non-dog and uncertain photos are rejected. The appli
 be shareable through a free public deployment, and the legacy dog database is not required by
 the active matching experience.
 
+## Target users
+- Spaniel owners who don’t know their Spaniel breed
+- Dog fans who want to know what Spaniel breed they have a picture of
+
+## Problem
+People may see or own a dog and they will not know what breed it is. Users want a way to identify the breed from a picture.
 ## User Scenarios & Testing
 
 ### User Story 1 - Identify a Spaniel (Priority: P1)
